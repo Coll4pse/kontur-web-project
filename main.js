@@ -6,16 +6,16 @@ let lastCard = null;
 let isIteractable = true;
 const mapSize = 20;
 const toysArray = [
-    new Toy('toy1', 'https://pixabay.com/get/54e9d1424d53ab14f6d1867dda3536781539d8e05a507948_1920.png'),
-    new Toy('toy2', 'https://pixabay.com/get/54e9dc414f5baf14f6d1867dda3536781539d8e05a53764e_1920.png'),
-    new Toy('toy3', 'https://pixabay.com/get/54e9d1424d50a414f6d1867dda3536781539d8e05a52724a_1920.png'),
-    new Toy('toy4', 'https://pixabay.com/get/54e9dc414f5aa814f6d1867dda3536781539d8e05a557040_1920.png'),
-    new Toy('toy5', 'https://pixabay.com/get/54e9d14b4e5aa514f6d1867dda3536781539d8e05a54714d_1920.png'),
-    new Toy('toy6', 'https://pixabay.com/get/54e9d2434254ab14f6d1867dda3536781539d8e05a547548_1920.png'),
-    new Toy('toy7', 'https://pixabay.com/get/54e9d3434856ad14f6d1867dda3536781539d8e35350714c_1920.png'),
-    new Toy('toy8', 'https://pixabay.com/get/54e9d2434257a414f6d1867dda3536781539d8e05a57724f_1920.png'),
-    new Toy('toy9', 'https://pixabay.com/get/54e9d14b4e5aa814f6d1867dda3536781539d8e05a57764d_1920.png'),
-    new Toy('toy10', 'https://pixabay.com/get/54e9d3434850a514f6d1867dda3536781539d8e05a567148_1920.png')]
+    new Toy('toy1', '/static/images/Cards/Toy1.png'),
+    new Toy('toy2', '/static/images/Cards/Toy2.png'),
+    new Toy('toy3', '/static/images/Cards/Toy3.png'),
+    new Toy('toy4', '/static/images/Cards/Toy4.png'),
+    new Toy('toy5', '/static/images/Cards/Toy5.png'),
+    new Toy('toy6', '/static/images/Cards/Toy6.png'),
+    new Toy('toy7', '/static/images/Cards/Toy7.png'),
+    new Toy('toy8', '/static/images/Cards/Toy8.png'),
+    new Toy('toy9', '/static/images/Cards/Toy9.png'),
+    new Toy('toy10', '/static/images/Cards/Toy10.png')]
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));

@@ -12,5 +12,5 @@ export default class Toy {
         return div;
     }
 
-    static #cardShirt = "https://pixabay.com/get/55e1d5434d53b108f5d08460da29317e1339d8e4505175_1280.png"
+    static #cardShirt = "/static/images/Cards/shirt.png"
 }
