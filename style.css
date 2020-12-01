@@ -38,6 +38,7 @@ body {
     backface-visibility: hidden;
     border: solid 0.1px black;
     border-radius: 5px;
+    background-color: white;
 }
 
 .closed > .front {
