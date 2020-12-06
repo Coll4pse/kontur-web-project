@@ -1,0 +1,35 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найди 5 отличий</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="header">
+        <a href="/index.html">Игра Memory</a>
+        <a href="/diff.html">Игра найди 5 отличий</a>
+    </nav>
+    <div class="page">
+        <h1 class="title">Игра найди 5 отличий</h1>
+        <div class="diffGame-container">
+            <!-- Изображени взяты по ссылке ниже -->
+            <!-- https://www.adme.ru/svoboda-sdelaj-sam/15-par-kartinok-najti-otlichiya-na-kotoryh-mozhet-tolko-tot-che-vnimanie-nahoditsya-na-urovne-sherlok-holms-1871965/ -->
+            <div class="image-container">
+                <img src="/static/images/DiffGame/original.png">
+                <p class="image-capture">Оригинальное изображение</p>
+            </div>
+            <div class="image-container">
+                <img src="/static//images/DiffGame/changed.jpg">
+                <p class="image-capture">Измененное изображение</p>
+                <div class="difference" id="d1"></div>
+                <div class="difference" id="d2"></div>
+                <div class="difference" id="d3"></div>
+                <div class="difference" id="d4"></div>
+                <div class="difference" id="d5"></div>
+            </div>
+        </div>
+    </div>
+    <script src="diff.js"></script>
+</body>
+</html>
