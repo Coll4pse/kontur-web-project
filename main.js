@@ -88,3 +88,15 @@ function createCell(toy) {
 
 
 generateMap();
+
+let cycleId;
+
+function checkGameStatus() {
+    let opened = document.querySelectorAll('.opened');
+    if (opened.length === 20) {
+        clearInterval(cycleId);
+        alert('Вы победили!');
+    }
+}
+
+cycleId = setInterval(checkGameStatus, 1000);
