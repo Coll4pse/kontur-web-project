@@ -288,3 +288,10 @@
         border-left-color: red; 
     } 
 } 
+
+/* Clasess for tree */
+.tree-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
